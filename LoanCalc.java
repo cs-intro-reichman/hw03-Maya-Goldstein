@@ -79,7 +79,7 @@ public class LoanCalc {
 		for (int i = 0; i < n; i++) {
 			result = (result - payment) * (1 + rate / 100);
 		}
-    	return result;
+    	        return result; // #feedback - note the indentation here, should start where the "for" loop starts.
 	}
 }
 
